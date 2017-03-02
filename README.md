@@ -1,2 +1,2 @@
-# apetitedelivery
-Apetite - Remake
+# Apetite - Remake
+Início do Projeto 'Apetite'
