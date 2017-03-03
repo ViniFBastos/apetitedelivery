@@ -136,6 +136,7 @@ hr{
 /* BANNER HOME */
 .banner-home{
 	position: relative;
+	min-height: 480px;
 }
 .banner-home .mascara-banner{
 	position: absolute;
@@ -156,6 +157,7 @@ hr{
   	right: 0;
   	max-height: 1080px;
   	z-index: 14;
+  	min-height: 480px;
 }
 .banner-home .content-texto{
 	width: 100%;
@@ -163,6 +165,7 @@ hr{
 	vertical-align: middle;
 	text-align: center;
 	max-height: 1080px;
+	min-height: 480px;
 }
 
 .banner-home .text-inner{
