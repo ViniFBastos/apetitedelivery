@@ -7,6 +7,8 @@ Banner Home funcionando em celulares/computadores
 #Conheça apetite
 Funcionando com Titulo e Descrição
 
+##Próximas atualizações
+
 **Conheça as vantagens**
 Próxima atualização
 
