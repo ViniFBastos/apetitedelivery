@@ -1,5 +1,5 @@
 <?	
-	echo "<title>NOME DO SITE - CONFIG.PHP</title>";
+	echo "<title>Apetite Delivery</title>";
 	echo "<meta name=\"theme-color\" content=\"#faba0a\">";
 	echo "<meta name=\"msapplication-navbutton-color\" content=\"#faba0a\">";
 	echo "<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"#faba0a\">";
