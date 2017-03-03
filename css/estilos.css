@@ -367,16 +367,16 @@ hr{
 	.banner-home h3{
 		margin-top: 30px;
 	}
+	.banner-home h3::after, .banner-home h3::before{
+		display: none;
+	}
+
 }
 
 @media screen and (max-width: 450px){
 	.conheca-apetite .col-right span.ic-carrinho{
 		height: 120px;
 	}
-	.banner-home h3::after, .banner-home h3::before{
-		display: none;
-	}
-
 	.banner-home.responsivo h3{
 		font-size: 20px;
 	}
