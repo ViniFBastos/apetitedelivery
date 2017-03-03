@@ -7,12 +7,15 @@ Banner Home funcionando em celulares/computadores
 #Conheça apetite
 Funcionando com Titulo e Descrição
 
-*Conheça as vantagens*
+**Conheça as vantagens**
+Próxima atualização
 
-*Nossos Planos*
+**Nossos Planos**
+Próxima atualização
 
-*Acessar loja demonstração*
-
-*Depoimentos*
-
-*Contato*
+**Acessar loja demonstração**
+Sábado
+**Depoimentos**
+Sábado
+**Contato**
+Sábado
