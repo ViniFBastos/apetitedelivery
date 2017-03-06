@@ -338,7 +338,7 @@ hr{
 /* CONHEÇA VANTAGENS */
 .conheca-vantagens{
 	margin-top: 10px;
-	padding: 55px 0;
+	padding: 55px 0 150px;
 }
 .conheca-vantagens h2{
 	font-size: 26px;
@@ -435,6 +435,187 @@ hr{
 	display: block;
 	text-align: left;
 	color: #333333;
+}
+
+.nossos-planos{
+	/* GRADIENTE */
+	/* GRADIENTE */
+	background: #b41117; /* Old browsers */
+	background: -moz-linear-gradient(top, #b41117 2%, #7c0c0f 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #b41117 2%,#7c0c0f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #b41117 2%,#7c0c0f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b41117', endColorstr='#7c0c0f',GradientType=0 ); /* IE6-9 */
+	
+	
+	display: block;
+	position: relative;
+	padding: 30px 0 55px;
+}
+.nossos-planos::before{
+	background: url("../img/before-planos.png") no-repeat center;
+	position: absolute;
+	height: 75px;
+	width: 100%;
+	top: -73px;
+	content: "";
+	left: 0;
+	right: 0;
+}
+.nossos-planos h2{
+	text-transform: uppercase;
+	font-family: "catamaran_regular";
+	font-size: 20px;
+	color: #fff;
+}
+
+.nossos-planos ul{
+	overflow: hidden;
+	display: block;
+	margin-top: 55px;
+}
+.nossos-planos ul li{
+	display: inline-block;
+	width: calc(33.33% - 10px);
+	margin-right: 15px;
+	background-color: #fff;
+	padding: 25px 15px;
+	border-radius: 5px;
+	vertical-align: middle;
+}
+.nossos-planos ul li:last-child{
+	margin-right: 0;
+}
+.nossos-planos ul li h3{
+	color: #B31117;
+	font-family: "she_always";
+	text-align: center;
+	font-size: 26px;
+	line-height: 35px;
+}
+.nossos-planos ul li span{
+	color: #666666;
+	font-family: "catamaran_bold";
+	text-align: center;
+	font-size: 15px;
+	display: block;
+}
+.nossos-planos ul li .margin-text{
+	display: block;
+	margin-top: 30px;
+}
+.nossos-planos ul li .margin-text p{
+	color: #666666;
+	font-family: "catamaran_regular";
+	font-size: 14px;
+	display: block;
+	margin-left: 36%;
+	max-width: 45%;
+	margin-top: 5px;
+}
+.nossos-planos ul li .margin-text p::before{
+	background-color: #B31117;
+	height: 4px;
+	width: 4px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: -10px;
+	margin-right: 5px;
+	content: "";
+}
+.nossos-planos ul li p.vantagens{
+	color: #666666;
+	font-family: "catamaran_bold";
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 15px;
+}
+.nossos-planos ul li p.vantagens b{
+	color: #B21117;
+}
+.nossos-planos ul li a.qtd-lojas{
+	border: #B31117 2px solid;
+	padding: 15px 20px;
+	text-align: center;
+	display: block;
+	color: #545454;
+	font-size: 12px;
+	text-transform: uppercase;
+	border-radius: 45px;
+	max-width: 225px;
+	margin: 20px auto 0; 
+	font-family: "catamaran_regular";
+}
+.nossos-planos ul li a.qtd-lojas::after{
+	content: "";
+	display: block;
+	float: right;
+	background: url("../img/drop-down-arrow.svg") no-repeat center;
+	height: 13px;
+	margin-top: 3px;
+	background-size: 100%;
+	width: 19px;
+}
+.nossos-planos ul li a.contrate{
+	padding: 15px 20px;
+	background-color: #B31117;
+	text-align: center;
+	display: block;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	border-radius: 45px;
+	max-width: 225px;
+	margin: 10px auto 0; 
+	font-family: "catamaran_bold";
+}
+
+.loja-demonstracao{
+  	position: relative;
+}
+.loja-demonstracao a{
+  	position: absolute;
+  	left: 0;
+  	right: 0;
+  	top: 0;
+  	bottom: 0;
+  	z-index: 15;
+}
+.loja-demonstracao .texto-banner{
+  	width: 100%;
+  	position: absolute;
+  	top: 0;
+  	margin: 0; 
+  	padding: 0;
+  	left: 0;
+  	right: 0;
+  	max-height: 1080px;
+  	z-index: 14;
+  	min-height: 480px;
+}
+.loja-demonstracao .content-texto{
+	width: 100%;
+	display: table;
+	vertical-align: middle;
+	text-align: center;
+	max-height: 1080px;
+	min-height: 480px;
+}
+.loja-demonstracao .text-inner{
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0 30px;
+	max-height: 1080px;
+}
+
+.loja-demonstracao .text-inner h2{
+	font-size: 29px;
+	color: #666666;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "catamaran_bold";
 }
 
 @media screen and (max-width: 1000px){

@@ -103,3 +103,77 @@
 		</div>
 	</div>
 </div>
+
+<div class="nossos-planos">
+	<div class="container">
+		<h2>Conheça nossos planos</h2>
+
+		<ul>
+			<li>
+				<h3>Express</h3>
+				<span>R$150,00/ MÊS</span>
+
+				<div class="margin-text">
+				<p>Loja delivery</p>
+				<p>Loja Facebook</p>
+				<p>Produtos ilimitados</p>
+				<p>3 contas de E-mail</p>
+				<p>Certificado de Segurança; Domínio Próprio</p>
+				</div>
+
+				<p class="vantagens"><b>VANTAGENS:</b> SEM TAXA POR VENDA;</p>
+
+				<a href="" class="qtd-lojas">Quantidade de Lojas</a>
+				<a href="" class="contrate">Contrate já</a>
+			</li><li>
+				<h3>Intermediario</h3>
+				<span>R$250,00/ MÊS</span>
+
+				<div class="margin-text">
+				<p>Site personalizado</p>
+				<p>Loja delivery</p>
+				<p>Loja Facebook</p>
+				<p>Produtos ilimitados</p>
+				<p>10 contas de E-mail</p>
+				<p>Certificado de Segurança; Domínio Próprio</p>
+				</div>
+
+				<p class="vantagens"><b>VANTAGENS:</b> SEM TAXA POR VENDA;</p>
+
+				<a href="" class="qtd-lojas">Quantidade de Lojas</a>
+				<a href="" class="contrate">Contrate já</a>
+			</li><li>
+				<h3>Personalizado</h3>
+				<span>CONSULTE O PREÇO</span>
+
+				<div class="margin-text">
+				<p>Site exclusivo</p>
+				<p>Loja delivery</p>
+				<p>Loja Facebook</p>
+				<p>Produtos ilimitados</p>
+				<p>10 contas de E-mail</p>
+				<p>Certificado de Segurança; Domínio Próprio</p>
+				</div>
+
+				<p class="vantagens"><b>VANTAGENS:</b> SEM TAXA POR VENDA;</p>
+
+				<a href="" class="qtd-lojas">Quantidade de Lojas</a>
+				<a href="" class="contrate">Contrate já</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="loja-demonstracao">
+	<a href="">
+		<div class="container">
+			<div class="texto-banner">
+		        <div class="content-texto">
+		            <div class="text-inner">
+		            	<h2>ACESSAR LOJA DE DEMONSTRAÇÃO</h2>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	</a>
+</div>
