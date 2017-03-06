@@ -334,12 +334,110 @@ hr{
 	margin: 0 auto;
 }
 
+/* CONHEÇA VANTAGENS */
+/* CONHEÇA VANTAGENS */
 .conheca-vantagens{
 	margin-top: 10px;
+	padding: 55px 0;
+}
+.conheca-vantagens h2{
+	font-size: 26px;
+	color: #666666;
+	font-family: "she_always";
 }
 
+/* CONHEÇA VANTAGENS - COL-LEFT*/
+/* CONHEÇA VANTAGENS - COL-LEFT*/
+.conheca-vantagens .col-left{
+	float: left;
+	width: 50%;
+}
+.conheca-vantagens .col-left ul{
+	display: block;
+}
+.conheca-vantagens .col-left ul li{
+	display: block;
+	margin-top: 10px;
+	padding: 0 20px 0 0;
+}
+.conheca-vantagens .col-left ul li h3{
+	text-transform: uppercase;
+	display: block;
+	font-family: "catamaran_bold";
+	color: #B31117;
+	position: relative;
+	font-size: 25px;
+}
+.conheca-vantagens .col-left ul li h3::after{
+	background-color: #B31117;
+	width: 0;
+	position: absolute;
+	right: -100px;
+	height: 3px;
+	top: 50%;
+	margin-top: -1px;
+	content: "";
+	transition: all 0.2s linear 0s;
+}
+.conheca-vantagens .col-left ul li:hover h3::after{
+	width: calc(100% - 300px);
+}
+.conheca-vantagens .col-left ul li p{
+	display: block;
+	font-family: "catamaran_regular";
+	color: #545454;
+	font-size: 15px;
+}
 
-@media screen and (max-width: 950px){
+/* CONHEÇA VANTAGENS - COL-RIGHT*/
+/* CONHEÇA VANTAGENS - COL-RIGHT*/
+.conheca-vantagens .col-right{
+	float: right;
+	width: 50%;
+}
+.conheca-vantagens .col-right img{
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.conheca-vantagens .listagem-vantagens{
+	margin-top: 30px;
+}
+.conheca-vantagens .listagem-vantagens ul{
+	overflow: hidden;
+	display: block;
+	text-align: center;
+}
+.conheca-vantagens .listagem-vantagens ul li{
+	display: inline-block;
+	width: 25%;
+	border-spacing: 0;
+	margin-top: 30px;
+	padding: 0 10px;
+}
+.conheca-vantagens .listagem-vantagens ul li img{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+.conheca-vantagens .listagem-vantagens ul li h3{
+	font-family: "catamaran_regular";
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	color: #333333;
+}
+.conheca-vantagens .listagem-vantagens ul li p{
+	font-family: "catamaran_regular";
+	font-size: 15px;
+	display: block;
+	text-align: left;
+	color: #333333;
+}
+
+@media screen and (max-width: 1000px){
 	.conheca-apetite .col-right{
 		width: 100%;
 		display: block;
@@ -362,13 +460,52 @@ hr{
 		text-align: center;
 		margin-top: 10px;
 	}
+	.conheca-vantagens .col-left{
+		float: none;
+		width: 100%;
+		margin: 20px 0;
+	}
+	.conheca-vantagens h2{
+		text-align: center;
+	}
+	.conheca-vantagens .col-left ul li h3{
+		text-align: center;
+	}
+	.conheca-vantagens .col-left ul li p{
+		text-align: center;
+	}
+	.conheca-vantagens .col-left ul li h3::after{
+		display: none;
+	}
+	.conheca-vantagens .col-right{
+		float: none;
+		width: 100%;
+		margin: 20px 0;
+	}
+	.conheca-vantagens .listagem-vantagens ul li{
+		width: 33.33%;
+	}
+
 }
+
+@media screen and (max-width: 740px){
+	.conheca-vantagens .listagem-vantagens ul li{
+		width: 50%;
+	}
+}
+
 @media screen and (max-width: 600px){
 	.banner-home h3{
 		margin-top: 30px;
 	}
 	.banner-home h3::after, .banner-home h3::before{
 		display: none;
+	}
+	.conheca-vantagens .listagem-vantagens ul li{
+		width: 100%;
+	}
+	.conheca-vantagens .listagem-vantagens ul li p{
+		text-align: center;
 	}
 
 }

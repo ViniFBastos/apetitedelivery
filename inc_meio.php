@@ -30,11 +30,76 @@
 </div>
 
 <div class="conheca-vantagens">
-	<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem odit sed quae eum porro similique corporis impedit eius suscipit, temporibus, error, voluptates consectetur optio, nesciunt maxime iure. Sapiente, tempora, est.</h3>
-	<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem odit sed quae eum porro similique corporis impedit eius suscipit, temporibus, error, voluptates consectetur optio, nesciunt maxime iure. Sapiente, tempora, est.</h3>
-	<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem odit sed quae eum porro similique corporis impedit eius suscipit, temporibus, error, voluptates consectetur optio, nesciunt maxime iure. Sapiente, tempora, est.</h3>
-	<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem odit sed quae eum porro similique corporis impedit eius suscipit, temporibus, error, voluptates consectetur optio, nesciunt maxime iure. Sapiente, tempora, est.</h3>
-	<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem odit sed quae eum porro similique corporis impedit eius suscipit, temporibus, error, voluptates consectetur optio, nesciunt maxime iure. Sapiente, tempora, est.</h3>
-	<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem odit sed quae eum porro similique corporis impedit eius suscipit, temporibus, error, voluptates consectetur optio, nesciunt maxime iure. Sapiente, tempora, est.</h3>
-	<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem odit sed quae eum porro similique corporis impedit eius suscipit, temporibus, error, voluptates consectetur optio, nesciunt maxime iure. Sapiente, tempora, est.</h3>
+	<div class="container">
+		<h2>Conheca as vantagens</h2>
+		<div class="col-left">
+			<ul>
+				<li>
+					<h3>Impressão automática</h3>
+					<p>Pedido integrado com o seu sistema de impressão. Todos os pedidos recebidos pelo GO Delivery são impressos em tempo real em uma impressora de sua escolha, contendo informações detalhadas sobre o pedido, reduzindo a zero a possibilidade de erro na entrega. Em nosso sistema, você pode imprimir os pedidos na cozinha e no balcão de atendimento, gerenciando melhor a ordem de saída deles e evitando sobrecarga de trabalho para os seus funcionários.</p>
+				</li>
+				<li>
+					<h3>GERENCIADOR DE PEDIDOS</h3>
+					<p>Pedido integrado com o seu sistema de impressão. Todos os pedidos recebidos pelo GO Delivery são impressos em tempo real em uma impressora de sua escolha, contendo informações detalhadas sobre o pedido, reduzindo a zero a possibilidade de erro na entrega. Em nosso sistema, você pode imprimir os pedidos na cozinha e no balcão de atendimento, gerenciando melhor a ordem de saída deles e evitando sobrecarga de trabalho para os seus funcionários.</p>
+				</li>
+			</ul>
+		</div>
+		<div class="col-right">
+			<img src="./img/img-vantagens.jpg" alt="Img vantagem">
+		</div>
+		<div class="clear"></div>
+		<div class="listagem-vantagens">
+			<ul>
+				<li>
+					<img src="./img/img-listagem.png" alt="Vantagem">
+					<h3>Loja em seu domínio</h3>
+					<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+				</li><li>
+					<img src="./img/img-listagem.png" alt="Vantagem">
+					<h3>Loja em seu domínio</h3>
+					<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+				</li><li>
+					<img src="./img/img-listagem.png" alt="Vantagem">
+					<h3>Loja em seu domínio</h3>
+					<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+				</li><li>
+					<img src="./img/img-listagem.png" alt="Vantagem">
+					<h3>Loja em seu domínio</h3>
+					<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+				</li><li>
+					<img src="./img/img-listagem.png" alt="Vantagem">
+					<h3>Loja em seu domínio</h3>
+					<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+				</li><li>
+					<img src="./img/img-listagem.png" alt="Vantagem">
+					<h3>Loja em seu domínio</h3>
+					<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+				</li><li>
+					<img src="./img/img-listagem.png" alt="Vantagem">
+					<h3>Loja em seu domínio</h3>
+					<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+				</li><li>
+					<img src="./img/img-listagem.png" alt="Vantagem">
+					<h3>Loja em seu domínio</h3>
+					<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+				</li><li>
+					<img src="./img/img-listagem.png" alt="Vantagem">
+					<h3>Loja em seu domínio</h3>
+					<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+				</li><li>
+					<img src="./img/img-listagem.png" alt="Vantagem">
+					<h3>Loja em seu domínio</h3>
+					<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+				</li><li>
+					<img src="./img/img-listagem.png" alt="Vantagem">
+					<h3>Loja em seu domínio</h3>
+					<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+				</li><li>
+					<img src="./img/img-listagem.png" alt="Vantagem">
+					<h3>Loja em seu domínio</h3>
+					<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+				</li>
+			</ul>
+		</div>
+	</div>
 </div>
