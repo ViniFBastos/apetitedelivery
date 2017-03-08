@@ -177,3 +177,98 @@
 		</div>
 	</a>
 </div>
+
+<div class="depoimentos-home">
+	<div class="container">
+		<h2>Depoimentos de nossos <b>Clientes</b></h2>
+
+		<ul id="OwlOne" class="owl-carousel">
+			<li>
+				<div class="img-left">
+					<img src="./img/img-depoimento.jpg" alt="Depoimento">
+				</div>
+				<div class="texto">
+					<q>Pesquisas na área apontam que 41% dos brasileiros usam aplicativos para fazer compras. Pensando nisso a Delivoro sai na frente e preparou soluções para as 3 maiores plataformas usadas, tudo isso com a qualidade e rapidez que só a Delivoro pode fornecer.</q>
+					<h3>Remake, Joao</h3>
+				</div>
+			</li>
+			<li>
+				<div class="img-left">
+					<img src="./img/img-depoimento.jpg" alt="Depoimento">
+				</div>
+				<div class="texto">
+					<q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus eum corporis, voluptatibus sit perspiciatis repellat, maxime molestias, cumque expedita voluptates sunt doloribus, laborum labore! Nemo dignissimos nam expedita voluptatibus, minus!</q>
+					<h3>Remake, Joao</h3>
+				</div>
+			</li>
+			<li>
+				<div class="img-left">
+					<img src="./img/img-depoimento.jpg" alt="Depoimento">
+				</div>
+				<div class="texto">
+					<q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur distinctio sequi nihil qui assumenda, excepturi mollitia harum magni amet ut ipsa expedita minima ea, rem laudantium reiciendis reprehenderit pariatur in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate optio accusantium culpa error asperiores necessitatibus id obcaecati animi labore iure voluptatem earum perspiciatis a magni dolore voluptatum, aperiam, tempore explicabo!</q>
+					<h3>Remake, Joao</h3>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="clientes-home">
+	<div class="container">
+		<div class="owl-carousel" id="OwlTwo">
+			<div class="item"><img src="./img/logo-cliente1.png" alt="Cliente1"></div>
+			<div class="item"><img src="./img/logo-cliente2.png" alt="Cliente2"></div>
+			<div class="item"><img src="./img/logo-cliente3.png" alt="Cliente3"></div>
+			<div class="item"><img src="./img/logo-cliente4.png" alt="Cliente4"></div>
+			<div class="item"><img src="./img/logo-cliente5.png" alt="Cliente5"></div>
+		</div>
+	</div>
+</div>
+
+<div class="contato-home">
+	<div class="container">
+		<div class="col-right">
+			<img src="./img/img-contato.jpg" alt="Contato">
+		</div>
+		<div class="col-left">
+			<h3>ENTRE EM CONTATO CONOSCO</h3>
+			<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+			<form action="" id="form-contato">
+				<ul>
+					<li>
+						<span class="ic ic-nome"></span>
+						<input type="text" placeholder="SEU NOME:" name="f_nome" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
+					</li>
+					<li>
+						<span class="ic ic-email"></span>
+						<input type="text" placeholder="SEU E-MAIL:" name="f_email" data-msg-required="O preenchimento deste campo é obrigatório." data-msg-email="Informe um endereço de e-mail válido." data-rule-required="true" data-rule-email="true" aria-required="true">
+					</li>
+					<li class="medio">
+						<span class="ic ic-cidade"></span>
+						<input type="text" placeholder="CIDADE:" name="f_cidade" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
+					</li><li class="pequeno">
+						<span class="ic ic-cidade"></span>
+						<select name="f_estado" id="" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
+							<option value="" disabled="" selected="">ESTADO:</option>
+							<option value="">Goiás</option>
+							<option value="">Distrito Federal</option>
+							<option value="">Minas Gerais</option>
+						</select>
+					</li>
+					<li class="dual">
+						<span class="ic ic-fixo"></span>
+						<input type="text" placeholder="TELEFONE FIXO:" class="input-telefone" name="f_fixo" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
+					</li><li class="dual right">
+						<span class="ic ic-celular"></span>
+						<input type="text" placeholder="CELULAR:" class="input-telefone" name="f_celular" aria-required="true" data-rule-required="true" data-msg-required="O preenchimento deste campo é obrigatório.">
+					</li>
+				</ul>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<div class="footer"></div>

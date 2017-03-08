@@ -618,6 +618,294 @@ hr{
 	font-family: "catamaran_bold";
 }
 
+/* DEPOIMENTOS HOME */
+/* DEPOIMENTOS HOME */
+.depoimentos-home{
+	background: url("../img/bg-depoimentos.jpg") no-repeat top center;
+	background-color: #8A0D12;
+	padding: 100px 0 20px;
+}
+.depoimentos-home h2{
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	max-width: 315px;
+	font-size: 26px;
+	font-family: "catamaran_regular";
+}
+.depoimentos-home h2 b{
+	text-transform: none;
+	text-align: right;
+	display: block;
+	font-family: "she_always";
+	font-size: 34px;
+	line-height: 38px;
+}
+.depoimentos-home ul{
+	max-width: 830px;
+	margin: 60px auto 0;
+}
+.depoimentos-home ul li .img-left{
+	float: left;
+	max-width: 230px;
+	padding: 15px;
+	background-color: #fff;
+	border-radius: 50%;
+	overflow: hidden;
+	width: 30%;
+}
+.depoimentos-home ul li .img-left img{
+	border-radius: 50%;
+	overflow: hidden;
+	display: block;
+	max-width: 100%;
+}
+.depoimentos-home ul li .texto{
+	padding: 30px 0;
+	margin-top: 15px;
+	float: right;
+	width: calc(70% - 10px);
+}
+.depoimentos-home ul li .texto q{
+	font-size: 17px;
+	font-family: "catamaran_regular";
+	line-height: 20px;
+}
+.depoimentos-home ul li .texto q::before{
+	content: "";
+	background: url("../img/before-quote.png") no-repeat center;
+	height: 14px;
+	width: 16px;
+	float: left;
+	margin-top: -20px;
+}
+.depoimentos-home ul li .texto q::after{
+	content: "";
+	background: url("../img/after-quote.png") no-repeat center;
+	height: 14px;
+	width: 16px;
+	display: inline-block;
+	margin-bottom: -20px;
+	margin-left: 20px;
+}
+.depoimentos-home .texto h3{
+	font-family: "catamaran_bold";
+	font-size: 21px;
+	margin-top: 10px;
+}
+.depoimentos-home .owl-carousel .owl-dots{
+	text-align: center;
+	margin-top: 100px;
+}
+.depoimentos-home .owl-carousel .owl-dot{
+	height: 12px;
+	width: 12px;
+	border: 1px solid #fff;
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+.depoimentos-home .owl-carousel .owl-dot.active{
+	height: 12px;
+	width: 12px;
+	background-color: #fff;
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+
+/* CLIENTES HOME */
+/* CLIENTES HOME */
+.clientes-home{
+	background-color: #C0C0C0;
+	padding: 40px 0;
+}
+.clientes-home .owl-carousel .owl-item{
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+.clientes-home .owl-carousel .owl-item img{
+	max-width: 100%;
+	display: block;
+}
+
+/* CONTATO HOME */
+/* CONTATO HOME */
+.contato-home{
+	background-color: #fff;
+	overflow: hidden;
+	display: block;
+	padding: 40px 0;
+}
+.contato-home .col-right{
+	float: right;
+	width: 40%;
+}
+.contato-home .col-right img{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+.contato-home .col-left{
+	float: left;
+	width: calc(60% - 20px);
+	max-width: 630px;
+	margin-top: 70px;
+}
+.contato-home .col-left h3{
+	color: #535353;
+	font-size: 28px;
+	text-transform: uppercase;
+	display: block;
+	font-family: "catamaran_regular";
+}
+.contato-home .col-left p{
+	color: #535353;
+	font-size: 20px;
+	display: block;
+	font-family: "catamaran_regular";
+	max-width: 530px;
+	line-height: 24px;
+}
+.contato-home .col-left form{
+	width: 100%;
+	overflow: hidden;
+	padding: 20px 0;	
+}
+.contato-home .col-left form ul{
+	width: 100%;
+}
+.contato-home .col-left form ul li{
+	display: block;
+	width: 100%;
+	position: relative;
+	margin-top: 15px;
+}
+.contato-home .col-left form ul li.medio{
+	display: inline-block;
+	width: 60%;
+	position: relative;
+	margin-top: 15px;
+	vertical-align: top;
+}
+.contato-home .col-left form ul li.pequeno{
+	display: inline-block;
+	width: calc(40% - 15px);
+	position: relative;
+	margin-left: 15px;
+	vertical-align: top;
+}
+.contato-home .col-left form ul li.dual{
+	display: inline-block;
+	width: calc(50% - 7px);
+	position: relative;
+	vertical-align: top;
+}
+.contato-home .col-left form ul li.dual.right{
+	display: inline-block;
+	width: calc(50% - 7px);
+	position: relative;
+	margin-left: 14px;
+	vertical-align: top;
+}
+.contato-home .col-left form ul li input[type="text"]{
+	width: 100%;
+	display: block;
+	border: 1px solid #545454;
+	border-radius: 7px;
+	padding: 12px 45px;
+	color: #545454;
+	font-family: "catamaran_regular";
+}
+.contato-home .col-left form ul li .ic{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+}
+.contato-home .col-left form ul li .ic-nome{
+	background: url("../img/ic-nome.png") no-repeat center;
+	height: 23px;
+	width: 23px;
+	margin-top: -11px;
+	left: 12px;
+}
+.contato-home .col-left form ul li .ic-email{
+	background: url("../img/ic-email.png") no-repeat center;
+	height: 20px;
+	width: 26px;
+	margin-top: -10px;
+}
+.contato-home .col-left form ul li .ic-cidade{
+	background: url("../img/ic-cidade.png") no-repeat center;
+	height: 27px;
+	width: 18px;
+	margin-top: -13px;
+	left: 14px;
+}
+.contato-home .col-left form ul li .ic-fixo{
+	background: url("../img/ic-fixo.png") no-repeat center;
+	height: 22px;
+	width: 22px;
+	margin-top: -11px;
+	left: 12px;
+}
+.contato-home .col-left form ul li .ic-celular{
+	background: url("../img/ic-celular.png") no-repeat center;
+	height: 22px;
+	width: 15px;
+	margin-top: -11px;
+	left: 15px;
+}
+.contato-home .col-left form ul li select{
+	width: 100%;
+	display: block;
+	border: 1px solid #545454;
+	border-radius: 7px;
+	padding: 12px 45px;
+	color: #545454;
+	font-family: "catamaran_regular";
+}
+.contato-home .col-left form ul li label.error{
+	font-family: "catamaran_regular";
+	position: absolute;
+	bottom: -17px;
+	font-size: 12px;
+	color: #ED1F24;
+}
+.contato-home .col-left form input[type="submit"]{
+	background-color: #ED1F24;
+	color: #fff;
+	font-family: "catamaran_bold";
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 7px 20px;
+	border-radius: 8px;
+	margin-top: 15px;
+}
+.footer{
+	background: url("../img/footer.jpg") no-repeat center;
+	width: 100%;
+	height: 73px;
+}
+
+
+@media screen and (max-width: 1200px){
+	.contato-home .col-right{
+		float: none;
+		width: 100%;
+	}
+	.contato-home .col-left{
+		float: none;
+		width: 100%;
+		max-width: 630px;
+		margin: 70px auto 0;
+	}
+}
+
 @media screen and (max-width: 1000px){
 	.conheca-apetite .col-right{
 		width: 100%;
@@ -667,11 +955,55 @@ hr{
 		width: 33.33%;
 	}
 
+	.nossos-planos h2{
+		text-align: center;
+	}
+	.nossos-planos ul{
+		margin: 0;
+	}
+	.nossos-planos ul li{
+		width: 100%;
+		margin: 20px auto 0;
+		max-width: 450px;
+		float: none;
+		display: block;
+	}
+	.nossos-planos ul li:last-child{
+		width: 100%;
+		margin: 20px auto 0;
+		max-width: 450px;
+		float: none;
+		display: block;
+	}
 }
 
 @media screen and (max-width: 740px){
 	.conheca-vantagens .listagem-vantagens ul li{
 		width: 50%;
+	}
+	.depoimentos-home .owl-carousel .owl-dots{
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	.depoimentos-home ul li .img-left{
+		float: none;
+		margin: 0 auto;
+		display: block;
+	}
+	.depoimentos-home ul li .texto{
+		float: none;
+		margin: 0 auto;
+		display: block;
+		width: 100%;
+	}
+	.depoimentos-home ul li .texto q{
+		display: block;
+		text-align: center;
+	}
+	.depoimentos-home ul li .texto h3{
+		display: block;
+		text-align: center;
 	}
 }
 
@@ -688,7 +1020,16 @@ hr{
 	.conheca-vantagens .listagem-vantagens ul li p{
 		text-align: center;
 	}
-
+	.contato-home .col-left form ul li.pequeno{
+		width: 100%;
+		display: block;
+		margin-left: 0;
+	}
+	.contato-home .col-left form ul li.medio{
+		width: 100%;
+		display: block;
+		margin-left: 0;
+	}
 }
 
 @media screen and (max-width: 450px){
@@ -701,4 +1042,10 @@ hr{
 	.banner-home h3{
 		font-size: 20px;
 	}
+	.contato-home .col-left form ul li.dual{
+		width: 100%!important;
+		display: block!important;
+		margin-left: 0!important;
+	}
+
 }
