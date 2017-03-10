@@ -15,7 +15,6 @@ $(document).ready(function(){
       responsiveRefreshRate: 0,
       margin: 20,
       dots: true,
-      autoHeight:true
   });
 
   var alturaTela = $(window).height();
@@ -26,9 +25,9 @@ $(document).ready(function(){
   $('.banner-home .text-inner').css('height',alturaTela - 100);
 
   $('.loja-demonstracao').css('height', alturaTela);
-  $('.loja-demonstracao .texto-banner').css('height',alturaTela - 100);
-  $('.loja-demonstracao .content-texto').css('height',alturaTela - 100);
-  $('.loja-demonstracao .text-inner').css('height',alturaTela - 100);
+  $('.loja-demonstracao .texto-banner').css('height',alturaTela);
+  $('.loja-demonstracao .content-texto').css('height',alturaTela);
+  $('.loja-demonstracao .text-inner').css('height',alturaTela);
   if(alturaTela > 600){
     $('.banner-home').removeClass('responsivo');
   }
@@ -63,9 +62,9 @@ $(window).resize(function(){
   $('.banner-home .text-inner').css('height',alturaTela - 100);
   
   $('.loja-demonstracao').css('height', alturaTela);
-  $('.loja-demonstracao .texto-banner').css('height',alturaTela - 100);
-  $('.loja-demonstracao .content-texto').css('height',alturaTela - 100);
-  $('.loja-demonstracao .text-inner').css('height',alturaTela - 100);
+  $('.loja-demonstracao .texto-banner').css('height',alturaTela);
+  $('.loja-demonstracao .content-texto').css('height',alturaTela);
+  $('.loja-demonstracao .text-inner').css('height',alturaTela);
   if(alturaTela > 600){
     $('.banner-home').removeClass('responsivo');
   }

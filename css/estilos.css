@@ -1047,5 +1047,13 @@ hr{
 		display: block!important;
 		margin-left: 0!important;
 	}
+	.contato-home .col-left h3{
+		text-align: center;
+		display: block;
+	}
+	.contato-home .col-left p{
+		text-align: center;
+		display: block;
+	}
 
 }

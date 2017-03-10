@@ -13,16 +13,14 @@ Funcionando
 #Listagem Vantagens
 Funcionando
 
-##Próximas atualizações
+#Listagem Vantagens
+Funcionando
 
-**Nossos Planos**
-Sábado
+#Listagem Vantagens
+Funcionando
 
-**Acessar loja demonstração**
-Sábado
+#Listagem Vantagens
+Funcionando
 
-**Depoimentos**
-Domingo
-
-**Contato**
-Domingo
+#Listagem Vantagens
+Funcionando

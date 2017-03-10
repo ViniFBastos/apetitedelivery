@@ -188,7 +188,7 @@
 					<img src="./img/img-depoimento.jpg" alt="Depoimento">
 				</div>
 				<div class="texto">
-					<q>Pesquisas na área apontam que 41% dos brasileiros usam aplicativos para fazer compras. Pensando nisso a Delivoro sai na frente e preparou soluções para as 3 maiores plataformas usadas, tudo isso com a qualidade e rapidez que só a Delivoro pode fornecer.</q>
+					<q>Pesquisas na área</q>
 					<h3>Remake, Joao</h3>
 				</div>
 			</li>
