@@ -15,6 +15,17 @@ $(document).ready(function(){
       responsiveRefreshRate: 0,
       margin: 20,
       dots: true,
+      responsive:{
+        0:{
+            items:2,
+        },
+        600:{
+            items:3,
+        },
+        1000:{
+            items:5,
+        }
+    }
   });
 
   var alturaTela = $(window).height();
